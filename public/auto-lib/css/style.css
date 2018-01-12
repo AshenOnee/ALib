@@ -1,0 +1,45 @@
+body{
+	background-color: grey;
+}
+
+h1{
+	text-align: center;
+}
+
+.search{
+	padding: 15px;
+	margin-left: 30px;
+	margin-right: 30px;
+	box-sizing: border-box;
+	border: 1px solid #aaa;
+	border-radius: 20px;
+}
+
+.discription p{
+	font-size: 20px;
+	margin: 30px;
+}
+
+.content{
+	width: 1100px;
+	margin: auto;
+	border-sizing: border-box;
+	background-color: white;
+}
+
+.custom-table{
+	 margin-left: 30px; 
+	 margin-right: 30px;
+	 padding: 0px;
+}
+
+tbody tr:hover{
+	background-color: gray;
+	color: white;
+}
+
+@media(max-width:1100px){
+	.content{
+			width: 100%;
+	}
+}

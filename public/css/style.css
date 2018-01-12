@@ -1,0 +1,96 @@
+html {
+	position: relative;
+	min-height: 100vh;
+	height: 100%;
+	min-width: 340px;
+}
+
+body{
+	background-color: lightgrey;
+	position: relative; min-height: 100%;
+}
+
+h1{
+	text-align: center;
+}
+
+img{
+	margin: auto;
+	display: block;
+}
+
+.myborder{
+	padding: 15px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: 1px solid #aaa;
+	border-radius: 20px;
+}
+
+.mybtn{
+	width: auto;
+}
+
+.discription p{
+	font-size: 20px;
+	margin: 30px;
+}
+
+.content{
+	width: 1100px;
+	margin: auto;
+	border-sizing: border-box;
+	background-color: white;
+}
+
+.custom-table{
+	 margin-left: 30px; 
+	 margin-right: 30px;
+	 padding: 0px;
+}
+
+tbody tr:hover{
+	background-color: lightgrey;
+	color: white;
+}
+
+@media(max-width:1100px){
+	.content{
+			width: 100%;
+	}
+}
+
+[v-cloak] {
+	display: none;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+
+.container-footer {
+	padding: 5px;
+}
+
+.container-footer .text-muted {
+	margin: 10px 0;
+}
+
+.content{
+	padding: 0 0 50px 0;
+}
+.footer {
+	border: solid 1px silver;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	background-color: #f9f9f9;
+}
